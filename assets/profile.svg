@@ -90,11 +90,11 @@
       <text x="416.0" y="310" class="fieldline typewriter" style="animation-delay:0.98s"><tspan class="label">Projects:</tspan> <tspan class="value">Django, ESP32, Flutter</tspan></text>
       <text x="416.0" y="332" class="fieldline typewriter" style="animation-delay:1.04s"><tspan class="label">Environment:</tspan> <tspan class="value">Linux, Git, GitHub, VS Code</tspan></text>
       <text x="416.0" y="354" class="fieldline typewriter" style="animation-delay:1.10s"><tspan class="label">Contact.GitHub:</tspan> <tspan class="value">github.com/otzjoao</tspan></text>
-      <text x="416.0" y="376" class="fieldline typewriter" style="animation-delay:1.16s"><tspan class="label">GitHub.Repos:</tspan> <tspan class="value">N/A</tspan></text>
-      <text x="416.0" y="398" class="fieldline typewriter" style="animation-delay:1.22s"><tspan class="label">GitHub.Stars:</tspan> <tspan class="value">N/A</tspan></text>
-      <text x="416.0" y="420" class="fieldline typewriter" style="animation-delay:1.28s"><tspan class="label">GitHub.Followers:</tspan> <tspan class="value">N/A</tspan></text>
-      <text x="416.0" y="442" class="fieldline typewriter" style="animation-delay:1.34s"><tspan class="label">GitHub.Languages:</tspan> <tspan class="value">N/A</tspan></text>
-      <text x="416.0" y="464" class="fieldline typewriter" style="animation-delay:1.40s"><tspan class="label">GitHub.Contributions:</tspan> <tspan class="value">N/A</tspan></text>
+      <text x="416.0" y="376" class="fieldline typewriter" style="animation-delay:1.16s"><tspan class="label">GitHub.Repos:</tspan> <tspan class="value">18</tspan></text>
+      <text x="416.0" y="398" class="fieldline typewriter" style="animation-delay:1.22s"><tspan class="label">GitHub.Stars:</tspan> <tspan class="value">0</tspan></text>
+      <text x="416.0" y="420" class="fieldline typewriter" style="animation-delay:1.28s"><tspan class="label">GitHub.Followers:</tspan> <tspan class="value">55</tspan></text>
+      <text x="416.0" y="442" class="fieldline typewriter" style="animation-delay:1.34s"><tspan class="label">GitHub.Languages:</tspan> <tspan class="value">HTML, Python, CSS, C#</tspan></text>
+      <text x="416.0" y="464" class="fieldline typewriter" style="animation-delay:1.40s"><tspan class="label">GitHub.Contributions:</tspan> <tspan class="value">161</tspan></text>
   
       <rect x="416.0" y="500.0" width="20" height="20" rx="3" fill="#161b22" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.46s" />
       <rect x="444.0" y="500.0" width="20" height="20" rx="3" fill="#ff7b72" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.51s" />

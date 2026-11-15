@@ -1,19 +1,3 @@
-#!/usr/bin/env python3
-"""
-Kali-Linux-terminal-styled neofetch profile SVG generator.
-
-Same engine as the original script, but wrapped in a dark terminal window
-(title bar + traffic-light dots) and recolored to match the classic
-Kali look: red "user@host" header/prompt, cyan/blue field values,
-light-blue ASCII art, navy window background.
-
-Env vars:
-  GITHUB_LOGIN   - github username to fetch stats for (required)
-  GITHUB_TOKEN   - token with at least public read access (required for live stats)
-  AVATAR_PATH    - optional explicit path to an avatar image
-  OUT_PATH       - output svg path (default: profile.svg)
-"""
-
 import os
 import sys
 import random
@@ -22,7 +6,7 @@ from xml.sax.saxutils import escape as xml_escape
 
 random.seed()
 
-LOGIN = os.environ.get("GITHUB_LOGIN", "kali")
+LOGIN = os.environ.get("GITHUB_LOGIN", "otzjoao")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OUT_PATH = os.environ.get("OUT_PATH", "assets/profile.svg")
 
@@ -30,34 +14,34 @@ OUT_PATH = os.environ.get("OUT_PATH", "assets/profile.svg")
 # Field list shown on the right, neofetch-style.
 # ---------------------------------------------------------------------------
 PROFILE_FIELDS = [
-    ("Role", "informatics student"),
-    ("Focus", "junior web developer & cybersecurity enthusiast"),
-    ("Stack.Frontend", "html, css, javascript"),
-    ("Stack.Backend", "php, laravel, codeigniter"),
-    ("Stack.Scripting", "python"),
-    ("Stack.Database", "mysql"),
-    ("Stack.Security", "burp suite"),
-    ("Environment", "linux, git, github, vscode"),
-    ("Interests", "cybersecurity"),
+    ("Role", "Software Engineering student"),
+    ("Focus", "Software & App Development"),
+    ("Stack.Frontend", "HTML, CSS, JavaScript"),
+    ("Stack.Backend", "Python, C#"),
+    ("Stack.Mobile", "Flutter, Dart"),
+    ("Stack.Automation", "Python, n8n"),
+    ("Stack.Database", "MySQL, SQL Server"),
+    ("Security.Tools", "Burp Suite"),
+    ("Projects", "Django, ESP32, Flutter"),
+    ("Environment", "Linux, Git, GitHub, VS Code"),
     ("Contact.GitHub", f"github.com/{LOGIN}"),
-    ("Contact.Telegram", "t.me/pangeran1337"),
 ]
 
 # ---- Kali color scheme -----------------------------------------------------
-BG_COLOR = "#0b1120"          # terminal window background (deep navy)
-TITLEBAR_COLOR = "#141c30"    # title bar strip
-TITLE_TEXT_COLOR = "#7f8aa6"
-ACCENT = "#5dc9f2"             # ASCII art color (light blue dots)
-HEADER_COLOR = "#e8384f"       # bold red "login@login" header + prompt user/path
-LABEL_COLOR = "#ffffff"        # bold field labels
-VALUE_COLOR = "#5dc9f2"        # field values (cyan/blue)
-PALETTE = ["#0b1120", "#e8384f", "#3ddc84", "#ffd166", "#4d8cff",
-           "#b16cff", "#39e0d0", "#e8e8e8"]
+BG_COLOR = "#0d1117"
+TITLEBAR_COLOR = "#161b22"
+TITLE_TEXT_COLOR = "#8b949e"
+ACCENT = "#58a6ff"
+HEADER_COLOR = "#ff7b72"
+LABEL_COLOR = "#c9d1d9"
+VALUE_COLOR = "#7ee787"
+PALETTE = ["#161b22", "#ff7b72", "#7ee787", "#f0883e", "#58a6ff", "#bc8cff", "#39c5cf", "#c9d1d9"]
 
 PROMPT_COMMANDS = [
-    "informatics student",
-    "junior web developer",
-    "cybersecurity enthusiast",
+    "python --version",
+    "git status --short",
+    "sudo rm -rf /",
+    "sudo apt update && sudo apt upgrade -y",
 ]
 PROMPT_TYPE_SPEED = 0.08
 PROMPT_DELETE_SPEED = 0.045
